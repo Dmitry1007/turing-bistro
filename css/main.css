@@ -1,0 +1,50 @@
+#container {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+section #menu {
+  width: 80%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#primary-nav ul {
+  background-color: grey;
+}
+
+#primary-nav li {
+  display: inline;
+  margin-left: 0;
+  padding-right: 5%;
+}
+
+.menu-item-price:before {
+  content: "$";
+}
+
+#menu {
+  width: 45%;
+  float: right;
+  display: inline-block;
+}
+
+#announcements {
+  display: inline-block;
+  float: left;
+  margin: auto;
+  /*border: 5px solid black;*/
+  width: 45%;
+}
+
+#page-footer {
+  clear: both;  
+}
